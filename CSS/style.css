@@ -229,7 +229,8 @@ a {
 
 .main-section {
   background: var(--main-color);
-  margin-top: 90px;
+  min-height: 90vh;
+  margin-top: 74px;
 }
 
 .btn-store {
@@ -265,8 +266,10 @@ a {
 
 /* necessary */
 .necessary {
-  height: 300px;
+  /* height: 300px; */
   background: var(--main-color);
+  padding-bottom: 50px;
+  /* border: 2px solid red; */
 }
 
 .owner {
