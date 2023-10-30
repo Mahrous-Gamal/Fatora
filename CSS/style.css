@@ -55,10 +55,6 @@ html {
   color: var(--main-color)
 }
 
-.fsize-1 {
-  font-size: 60px;
-}
-
 .mx-width {
   max-width: 100%
 }
@@ -81,7 +77,7 @@ html {
   -moz-transition: all .3s ease;
   -ms-transition: all .3s ease;
   -o-transition: all .3s ease;
-  border: 1px solid var(--main-color);
+  border: 2px solid var(--main-color);
 }
 
 .general-btn:hover {
@@ -91,11 +87,6 @@ html {
 
 .mt-6 {
   margin-top: 6rem;
-}
-
-.icon-so {
-  color: #fc3549;
-  margin-right: 10px;
 }
 
 ::-webkit-scrollbar {
@@ -159,7 +150,7 @@ a {
   font-size: 1.1em;
 }
 
-..dropdown-menu {
+.dropdown-menu {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   border: none;
   border-radius: 0;
@@ -234,6 +225,7 @@ a {
   -ms-transition:all .3s ease ;
   -o-transition:all .3s ease ;
   border: 2px solid white;
+
 }
 .btn-store:hover {
 background-color: var(--main-color);
