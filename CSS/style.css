@@ -224,13 +224,24 @@ a {
 
 .btn-store {
   background: #fff;
-  padding: 15px 28px;
+  padding: 10px 28px;
   border-radius: 50px;
   border: 0;
   outline: 0;
-
+  transition:all .3s ease ;
+  -webkit-transition:all .3s ease ;
+  -moz-transition:all .3s ease ;
+  -ms-transition:all .3s ease ;
+  -o-transition:all .3s ease ;
+  border: 2px solid white;
 }
-
+.btn-store:hover {
+background-color: var(--main-color);
+color: white;
+}
+.btn-store:hover .icon-btn {
+color: white;
+  }
 .menu {
   padding-right: 28px;
 }
@@ -279,10 +290,10 @@ a {
 .pricing .free {
   background: #fff;
   border-radius: 7px;
+  box-shadow: 0 0 11px #46434338;
 }
-
 .services .box {
-  border: 2px solid #ccc;
+  /* border: 2px solid #ccc; */
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -290,8 +301,12 @@ a {
   -o-border-radius: 10px;
   padding: 15px;
   cursor: pointer;
+  box-shadow: 0 0 11px #46434338;
 }
+.know-more .card {
 
+  box-shadow: 0 0 11px #46434338;
+}
 .fatora {
   background-color: var(--main-color);
 }
